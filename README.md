@@ -67,7 +67,7 @@ describe('the async() helper', function() {
 
 ## Releases
 
-[Download the latest version here](https://github.com/jqrd/jasmine-async-helper/raw/gh-pages/dist/jasmine-async-0.1.0.js).
+[Download the latest version here](https://raw.github.com/jqrd/jasmine-async-helper/master/dist/jasmine-async-0.1.0.js).
 
 
 ## Tests
