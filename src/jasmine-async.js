@@ -80,13 +80,11 @@ function async() {
 
   return function() {
     args.forEach(function (fn) {
-      ++asyncCount;
-
       var runIsDone = false,
           done = function() { runIsDone = true;},
-          description = args.length > 1
+          description = args.length == 1
             ? 'asynchronous test (did you call done()?)'
-            : 'asynchronous call ' + asyncCount + ' (did you call done()?)';
+            : 'asynchronous call ' + (++asyncCount) + ' (did you call done()?)';
 
       runs(function () { fn(done); });
       waitsFor(function () { return runIsDone; }, description, timeout);
