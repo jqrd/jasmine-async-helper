@@ -34,7 +34,6 @@ describe('the async() helper', function() {
     console.log('second part of the test');
     var result = false;
     setTimeout(function () {
-      // this should fail
       expect(result).toBe(true);
       done();
     }, 100);
