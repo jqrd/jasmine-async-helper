@@ -1,10 +1,3 @@
-# Jasmine Async Helper
-
-Helper function that makes it simpler to write asynchronous Jasmine tests.
-
-Examples:
-
-```javascript
 describe('the async() helper', function() {
 
   it('is easy to use', async(function (done) {
@@ -62,19 +55,3 @@ describe('the async() helper', function() {
   });
 
 });
-```
-
-
-## Releases
-
-[Download the latest version here](https://github.com/jqrd/jasmine-async-helper/raw/gh-pages/dist/jasmine-async-0.1.0.js).
-
-
-## Tests
-
-The (few) jasmin-async tests are prepared to run with [Karma](http://karma-runner.github.com/).
-
-
-## Contributing
-
-This is a very simple stab at making async testing in Jasmine easier, if you have suggestions/ideas, please message / comment / create pull requests.
